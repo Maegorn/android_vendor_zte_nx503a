@@ -418,6 +418,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+    vendor/zte/nx503a/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/zte/nx503a/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
@@ -442,7 +443,10 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/zte/nx503a/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/zte/nx503a/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so
+    vendor/zte/nx503a/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
+    vendor/zte/nx503a/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/zte/nx503a/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/zte/nx503a/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so 
 
 PRODUCT_PACKAGES += \
     liblisten \
