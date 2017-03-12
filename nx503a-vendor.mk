@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/bin/tmg3993:system/bin/tmg3993 \
     vendor/zte/nx503a/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/zte/nx503a/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/zte/nx503a/proprietary/etc/firmware/bcm4339/fw_bcmdhd.bin:system/etc/firmware/bcm4339/fw_bcmdhd.bin \
     vendor/zte/nx503a/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/zte/nx503a/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/zte/nx503a/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
