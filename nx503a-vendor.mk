@@ -357,7 +357,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/zte/nx503a/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/zte/nx503a/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/zte/nx503a/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/zte/nx503a/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/zte/nx503a/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -434,7 +433,6 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx503a/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/zte/nx503a/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/zte/nx503a/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/zte/nx503a/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
