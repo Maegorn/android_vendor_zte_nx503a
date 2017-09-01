@@ -104,5 +104,27 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := nubia_IRControl
+LOCAL_MODULE_OWNER := zte
+LOCAL_SRC_FILES := proprietary/app/nubia_IRControl/nubia_IRControl.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := nubia_IRControl_uei_sdk
+LOCAL_MODULE_OWNER := zte
+LOCAL_SRC_FILES := proprietary/app/nubia_IRControl_uei_sdk/nubia_IRControl_uei_sdk.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
 endif
 endif
